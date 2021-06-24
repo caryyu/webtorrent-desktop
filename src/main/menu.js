@@ -324,6 +324,13 @@ function getMenuTemplate () {
           }
         },
         {
+          label: 'BitTorrent Tracker Server',
+          accelerator: 'CmdOrCtrl+T',
+          click: () => {
+            windows.tracker.init()
+          }
+        },
+        {
           type: 'separator'
         },
         {
